@@ -96,6 +96,17 @@ aside input {
   border-radius: 4px;
 }
 
+.search {
+  position: relative;
+}
+
+.search::after {
+  position: absolute;
+  right: 0.4rem;
+  top: 0rem;
+  content: "🔍";
+}
+
 .main-story {
   flex: 1 0 75%;
   padding: 0 2rem;
