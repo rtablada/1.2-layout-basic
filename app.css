@@ -35,7 +35,8 @@ header {
   position: relative;
   min-height: 300px;
 
-  background: url("http://lorempixel.com/1040/300");
+  background: url("http://lorempixel.com/1040/300") no-repeat center center;
+  background-size: cover;
 }
 
 .logo {
