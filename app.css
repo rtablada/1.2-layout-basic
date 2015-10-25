@@ -17,6 +17,16 @@ p {
   font-family: serif;
 }
 
+a {
+  text-decoration: none;
+  color: #3572c1;
+}
+
+a:visited {
+  color: inherit;
+  color: #3572c1;
+}
+
 body {
   margin: 0;
 }
@@ -107,7 +117,14 @@ aside input {
   content: "🔍";
 }
 
+/**
+ * Main Story Column
+ */
 .main-story {
   flex: 1 0 75%;
   padding: 0 2rem;
+}
+
+.main-story img {
+  width: 100%;
 }
